@@ -1,0 +1,45 @@
+h1 {
+    margin: 0;
+    padding: 0;
+  }
+  html, body, .app {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  .popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+  }
+  .popup_inner {
+    /* position: absolute;
+    left: 45%;
+    right: 25%;
+    top: 45%;
+    bottom: 25%;
+    margin: auto;
+    background: white; */
+    color: #fff;		
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30px;
+    /* width: 95px;
+    height: 95px; */
+    /* border-radius: 50%; */
+    z-index: 9;
+    /* background: #ce3434; */
+    padding: 15px;
+    text-align: center;
+    /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1); */
+  }

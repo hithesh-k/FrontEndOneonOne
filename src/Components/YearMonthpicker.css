@@ -1,0 +1,10 @@
+.Pop{opacity: 0;
+visibility: hidden;
+position: absolute;
+left: -150px;
+transform: translate(0, 10px);
+background-color: #bfbfbf;
+padding: 1.5rem;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+width: auto;
+}
